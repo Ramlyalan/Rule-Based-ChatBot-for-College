@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Karunya University Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" type="image/png" href="/static/images/logo.png">
+</head>
+<body>
+  <header class="top-header">
+    <div class="logo-container">
+      <img src="/static/images/logo.png" alt="Karunya Logo" class="logo-img">
+      <div>
+        <h1>Karunya Chatbot 🤖</h1>
+        <p class="subtitle">Ask me anything about Karunya University!</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="chat-box" class="chat-box"></div>
+
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Ask about hostels, faculty, campus..." required />
+      <button type="submit">Send</button>
+      <button type="button" id="speak-btn">🎤 Speak</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>🎓 Created with ❤️ by an AI Enthusiast | NLP Project | Karunya University</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
