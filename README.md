@@ -11,7 +11,3 @@ This is a **Flask-based rule-based chatbot application** designed specifically f
 - **Evaluation metrics calculation** (Accuracy, Precision, Recall, F1 Score) for project analysis
 
 This chatbot helps students and visitors interactively explore university information while demonstrating a practical NLP application with an elegant UI and backend integration.
-
----
-
-Let me know if you want a deployment instruction section for your README before final submission.
